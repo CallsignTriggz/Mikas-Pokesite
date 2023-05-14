@@ -59,6 +59,7 @@ body {
   background-color: rgb(91, 111, 148);
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -87,9 +88,9 @@ body {
   display: flex;
   flex-direction: column;
   width: 400px;
-  position: absolute;
-  top: 220px;
-  right: 500px;
+  position: relative;
+  left: 360px;
+  bottom: 400px;
 }
 
 .pokemon-name {
