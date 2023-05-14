@@ -73,6 +73,8 @@ body {
   height: 480px;
   background-color: rgb(91, 111, 148);
   margin-left: 15px;
+  position: relative;
+  left: 50px;
 }
 
 #pokemon-list {
@@ -249,12 +251,12 @@ footer {
   #pokelist {
     position: relative;
     top: 30px;
-    left: -85px;
+    left: -100px;
   }
 
   #pokemon-list {
     height: 460px;
-    width: 350px;
+    width: 380px;
     border: none;
     font-size: 13.5px;
     text-align: left;
@@ -278,5 +280,10 @@ footer {
 
   #content-box {
     width: 400px;
+  }
+
+  #pokemon-info {
+    position: relative;
+    left: 0;
   }
 }
